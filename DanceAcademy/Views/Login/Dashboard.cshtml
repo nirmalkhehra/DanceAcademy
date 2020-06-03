@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1 align="center">Dashbaord </h1>
+
+
+                  <div class="container">
+
+                      <div class="row">
+
+                          <h1>welcome to dashboard Area of the Admin  </h1>
+                          <br />
+                      </div>
+                      <div class="row">
+                          <h1 class="btn btn-outline-danger"> <a href='@Url.Action("ViewStudent","Student")'>Student Panel </a> </h1> <br />
+                      </div>
+                      <div class="row">
+                          <h1 class="btn btn-outline-danger"> <a href='@Url.Action("ViewStaff","Staff")'>Staff Panel </a> </h1>
+                      </div>
+                      <div class="row">
+                          <h1><a href='@Url.Action("SignIn","Login")'>Back to Login Page  </a></h1>
+
+                      </div>
+                  </div>
